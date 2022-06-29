@@ -1,4 +1,4 @@
-remote_theme: hifun-team/hexo-theme-miracle@v2.0.5
+remote_theme: Minima
 plugins:
   - jekyll-remote-theme
 relative_links:
