@@ -1,4 +1,4 @@
-remote_theme: Miracle
+remote_theme: minima
 plugins:
   - jekyll-relative-links
 relative_links:
