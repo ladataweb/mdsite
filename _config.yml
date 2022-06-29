@@ -1,3 +1,5 @@
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-relative-links
 relative_links:
