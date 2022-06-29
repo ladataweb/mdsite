@@ -145,9 +145,9 @@ Right aligned columns
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
-[link text](Pagina1.md)
+[Pagina 1](Pagina1.md)
 
-[link text](Pagina2.md)
+[Pagina 2](Pagina2.md)
 
 
 ## Images
