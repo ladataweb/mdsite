@@ -1,12 +1,12 @@
 remote_theme: "jekyll/minima"
 minima:
   skin: dark
-switch_dark: 🌑
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 relative_links:
   enabled: true
-  collections: true
+  collections: false
 include:
   - Pagina1.md
   - Pagina2.md
