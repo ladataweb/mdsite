@@ -7,3 +7,10 @@
 [Pagina 2](Pagina2.md)
 
 [Readme](Readme.md)
+
+## Paragraph
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
