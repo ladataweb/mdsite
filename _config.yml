@@ -1,6 +1,7 @@
-remote_theme: Miracle
+remote_theme: Minima
 plugins:
   - jekyll-remote-theme
+switch_dark: 🌑
 relative_links:
   enabled: true
   collections: true
