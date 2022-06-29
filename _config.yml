@@ -1,4 +1,9 @@
-remote_theme: hexo-theme-miracle
+remote_theme: hexo theme miracle
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 include:
   - Pagina1.md
   - README.md
