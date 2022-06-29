@@ -1,15 +1,6 @@
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
+theme: Minimal theme
 include:
-  - CONTRIBUTING.md
+  - Pagina1.md
   - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
+  - Pagina2.md
+  - index.md
