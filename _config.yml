@@ -1,5 +1,7 @@
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
+title: "My Awesome Site"
+description: Minimal is a theme for GitHub Pages.
 plugins:
   - jekyll-relative-links
 relative_links:
