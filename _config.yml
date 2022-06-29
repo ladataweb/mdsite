@@ -1,4 +1,4 @@
-remote_theme: Minima
+remote_theme: minima
 plugins:
   - jekyll-remote-theme
 minima:
