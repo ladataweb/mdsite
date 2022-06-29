@@ -1,8 +1,8 @@
 remote_theme: minima
-plugins:
-  - jekyll-remote-theme
 minima:
   skin: dark
+plugins:
+  - jekyll-remote-theme
 switch_dark: 🌑
 relative_links:
   enabled: true
