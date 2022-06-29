@@ -1,10 +1,9 @@
-title: "My Awesome Site"
+title: "My Awesome Sit"
 description: Minimal is a theme for GitHub Pages.
-remote_theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
 plugins:
   - jekyll-relative-links
-  - jekyll-remote-theme
 relative_links:
   enabled: true
   collections: true
