@@ -6,7 +6,7 @@
 
 [Pagina 2](Pagina2.md)
 
-[Readme](Readme.md)
+[Readme](README.md)
 
 ## Paragraph
 Text Text Text Text Text Text Text Text Text Text Text Text 
