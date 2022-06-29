@@ -1,4 +1,4 @@
-remote_theme: Theme Miracle
+remote_theme: Miracle
 plugins:
   - jekyll-relative-links
 relative_links:
