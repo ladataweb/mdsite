@@ -1,4 +1,4 @@
-theme: hexo-theme-miracle
+remote_theme: hexo-theme-miracle
 plugins:
   - jekyll-relative-links
 relative_links:
