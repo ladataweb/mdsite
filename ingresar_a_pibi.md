@@ -4,7 +4,7 @@ PiBi tiene dos formas de registrarse. Una de ellas es creando un usuario y contr
 
 Para crear un usuario y contraseña tenemos que pulsar en el botón REGISTRARSE ubicado en la parte inferior. 
 
-![ingresar1](Media\Ingresar\ingresar1.png)
+![ingresar1](Media/Ingresar/ingresar1.png)
 
 Completamos los datos de registro y pulsamos en el botón CREAR. 
 
