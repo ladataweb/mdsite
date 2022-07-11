@@ -8,7 +8,7 @@ Para crear un usuario y contraseña tenemos que pulsar en el botón REGISTRARSE 
 
 Completamos los datos de registro y pulsamos en el botón CREAR. 
 
-![ingresar2](Media\Ingresar\ingresar2.PNG)
+![ingresar2](\Media\Ingresar\ingresar2.PNG)
 
 ¡Listo! Ahora tenemos la cuenta en PiBi y podemos ingresar a la App. 
 
@@ -18,7 +18,7 @@ Para registrarnos de forma automática con Google tenemos que pulsar en el botó
 
 Google nos muestra las opciones que tenemos en el dispositivo. Si no tenemos ninguna debemos ingresar una cuenta GMAIL. 
 
-![ingresar4](Media\Ingresar\ingresar4.PNG) 
+![ingresar4](Media/Ingresar/ingresar4.PNG) 
 
 ¡Listo! Ahora tenemos la cuenta en PiBi y podemos ingresar a la App. 
 
