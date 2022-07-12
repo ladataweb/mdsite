@@ -1,6 +1,6 @@
 title: "PiBi"
 description: Minimal is a theme for GitHub Pages.
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: dark
 plugins:
   - jekyll-relative-links
