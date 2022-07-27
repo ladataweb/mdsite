@@ -1,28 +1,54 @@
-# Manual de producto
+---
+layout: default
+---
 
-## Índice
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>Jekyll Template for Project Websites</h1>
+        <p>Simple and modern design for publishing blog posts, documentation and many more things about your project.
+          You can now clone and start to create a website for your project like this one.</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
+    </div>
+</div>
 
-[Ingresar a PiBi](ingresar_a_pibi.md)
-
-[Roles](roles.md)
-
-[Conectores](conectores.md)
-
-## ¿Qué es PiBi?
-- **Plataforma Web**: PIBI es una plataforma que permite a una empresa incrustar y distribuir informes en un portal para que clientes, proveedores o colaboradores comerciales puedan interactuar y consumir los mismos a demanda. ​
-- **Administración de usuario independiente de licencia​**: Independientemente de que sean parte de la empresa o incluso tengan o no una cuenta de Power BI.​
-- **Distribución de reportes ilimitada​**: Permite distribuir un número ilimitado de informes de Power BI con tantos usuarios como desee.​
-
-## ¿Por qué?
-- **Reportes en un solo lugar**: Pensado para distribuir reportes con proveedores, clientes o colaboradores comerciales. Todo en una misma plataforma.​
-- ​**Seguro y privado​**: Los dashboards admiten dos instancias de seguridad. Una a nivel filas y otra por distribución, lo cual garantiza el acceso a la información de los usuarios seleccionados.​
-- **Backoffice**​: La plataforma permite gestionar quién ve y administra la distribución,​ es decir permite otorgar permisos a los usuarios para que vean determinada información.​
-- **Sencillo minimalista​**: Nos enfocamos en mantener PiBi lo más simple posible para que usuarios y administradores se concentren en lo que realmente importa, los informes y la administración segura.​
-
-## Características Principales
-- Posibilidad de distribuir reportes a usuarios sin límites.​
-- Todo centralizado en una sola plataforma.​
-- Reducción de costos en cuestiones de licenciamiento.​
-- Distribución controlada, con dos capas de seguridad.​
-- Permití acceso a tus reportes a usuarios que no tengan cuenta de Power BI.​
-- Actualizaciones continuas e incluidas del producto.​
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">What is Jekyll?</h2>
+              <p class="lead">Jekyll is a simple, blog-aware, static site generator. It takes a template
+              directory containing raw text files in various formats, runs it through
+              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
+              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
+              spits out a complete, ready-to-publish static website suitable
+              for serving with your favorite web server. Jekyll also happens to be the engine
+              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
+              to host your project’s page, blog, or website from GitHub’s servers <strong>for
+              free</strong>.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="{{ "/assets/img/jekyll-dark.png" | relative_url }}" alt="Jekyll logo" class="img-responsive">
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Easy to install and publish</h3>
+            <p>Get started by cloning source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
+              it will be automatically compiled and published under your account's (or organisation's) subdomain under <code>github.io</code>.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Modular Styling and Templating</h3>
+            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
+            You can change the theme or write your custom one by overwriting bootstrap sass variables for a different color set, font options, etc.</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Git-based source control</h3>
+            <p>Leverage from Git version control system by
+              maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
+        </div>
+    </div>
+</div>

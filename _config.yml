@@ -1,5 +1,8 @@
 remote_theme: "aksakalli/jekyll-doc-theme@gh-pages"
 plugins:
   - jekyll-remote-theme
+bootwatch: "slate"
 title: "PiBi Test"
 description: The description.
+lang: en-US
+email: your-email@domain.com

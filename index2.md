@@ -1,6 +1,6 @@
 # Manual de producto
 
-## Páginas
+## Índice
 
 [Ingresar a PiBi](ingresar_a_pibi.md)
 
