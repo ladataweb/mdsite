@@ -4,5 +4,3 @@ plugins:
 bootwatch: "slate"
 title: "PiBi Test"
 description: The description.
-lang: en-US
-email: your-email@domain.com
