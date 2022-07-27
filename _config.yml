@@ -1,5 +1,5 @@
-title: "PiBi Test"
-description: The description.
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages
+remote_theme: "aksakalli/jekyll-doc-theme@gh-pages"
 plugins:
   - jekyll-remote-theme
+title: "PiBi Test"
+description: The description.
