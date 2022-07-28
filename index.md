@@ -1,7 +1,24 @@
 ---
 layout: default
 ---
-
+<html>
+	<head>
+		<title>LaDataWeb - MDSite</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="LaData es un sitio de análisis de datos de cualquier fuente de datos abierto corriendo por internet. En otras palabras Storytelling. Todo lo que te importa una mie... y no podes dejar de ver. Power Bi Córdoba, Argentina. Power Bi Jujuy, Argentina" />
+		<meta name="author" content="ibarrau">
+		<meta name="keywords" content="Power Bi, Power Bi Jujuy, Power Bi Cordoba, Power Bi Argentina, Azure Jujuy, Azure Cordoba, Azure Argentina, Bi Cordoba, Bi Jujuy, Bi Argentina"/>
+		<meta name="distribution" content="global" />
+		<meta http-equiv="Content-Language" content="es" />
+		<meta name="copyright" content="ibarrau" />		
+		<meta property="og:locale" content="es_ES">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="LaData Web">
+		<meta property="og:site_name" content="LaDataWeb">		
+		<link rel="icon" href="images/a.png" type="image/x-icon"> 
+	</head>
+</html>
 <div class="header-container jumbotron">
     <div class="container">
         <h1>Jekyll Template for Project Websites</h1>
