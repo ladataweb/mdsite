@@ -4,7 +4,7 @@ title: "Implementacion"
 nav_order: 4
 ---
 
-# ¿Cómo implementar el informe SimplePBIX en mi Power Bi Service? 
+# ¿Cómo implementar un informe SimplePBIX en mi Power Bi Service? 
 
 Una vez que tengamos creada la App necesaria para el deploy, procedemos a hacer la petición del archivo en el sitio: https://www.ladataweb.com.ar/tools
 Expandimos en la sección SimplePBIX y solicitamos una Demo ingresando un correo electrónico.
@@ -17,8 +17,8 @@ El correo será necesario para que podamos proveer una clave de acceso para la i
 - ClientId: id de la aplicación registrada para implementación
 - SecretId: secreto de la aplicación generado para autenticar
 - WorkspaceId: id del area de trabajo en la cual deseamos implementar el informe de SimplePBIX.
-
-	_NOTA: recuerde que este aplicación tiene un solo permiso en una sola area de trabajo. No hay peligros de filtrado de datos ni seguridad de acceso. Para mayor seguridad recomendamos borrar el secreto al finalizar la implementación.
+	
+>*NOTA: recuerde que este aplicación tiene un solo permiso en una sola area de trabajo. No hay peligros de filtrado de datos ni seguridad de acceso. Para mayor seguridad recomendamos borrar el secreto al finalizar la implementación.*
 	
 ## Deploy
 

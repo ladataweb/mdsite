@@ -4,7 +4,7 @@ title: "Inicio"
 nav_order: 1
 ---
 # Guía 
-Les damos la bienvenida al manual de PiBi.
+Les damos la bienvenida a los docs de SimplePBIX.
 
 [<img src="assets/images/a.png" width="30%"/>](assets/images/Ladataweb-rectangle.png)
 
