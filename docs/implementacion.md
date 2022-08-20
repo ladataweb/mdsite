@@ -6,7 +6,7 @@ nav_order: 4
 
 # ¿Cómo implementar un informe SimplePBIX en mi Power Bi Service? 
 
-Una vez que tengamos creada la App necesaria para el deploy, procedemos a hacer la petición del archivo en el sitio: https://www.ladataweb.com.ar/tools
+Una vez que tengamos creada la App necesaria para el deploy, procedemos a hacer la petición del archivo en el sitio: <a href="https://www.ladataweb.com.ar/tools">https://www.ladataweb.com.ar/tools</a>
 Expandimos en la sección SimplePBIX y solicitamos una Demo ingresando un correo electrónico.
 
 ## ¿Por qué un correo?

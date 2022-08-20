@@ -20,9 +20,13 @@ El archivo del informe cuenta con parámetros de configuración.
 
 #### Excel de credenciales
 
-El archivo de credenciales es sumamente sencillo. Debemos abrir un excel y en su primera hoja crear una tabla que tenga tres columnas: TenantId | ClientId | SecretId . En la primera fila completamos los valores necesarios según nuestro Service Principal con permisos de administrador. Lo dejamos en un entorno accesible web y copiamos su dirección. En caso de estar usando Sharepoint o Onedrive puede ver este post sobre <a href="https://blog.ladataweb.com.ar/post/185337134590/alternativa-para-conectar-power-bi-a-onedrive">como obtener el enlace</a>.
+El archivo de credenciales es sumamente sencillo. Debemos abrir un excel y en su primera hoja crear una tabla que tenga tres columnas: 
 
->*Nota: dado que Power Bi no permite cifrar parámetros, usaremos un archivo excel cloud con ubicado donde usted lo desee con permisos y credenciales que puede setear al momento de actualizar para mantener la seguridad.
+TenantId | ClientId | SecretId
+
+En la primera fila completamos los valores necesarios según nuestro Service Principal con permisos de administrador. Lo dejamos en un entorno accesible web y copiamos su dirección. En caso de estar usando Sharepoint o Onedrive puede ver este post sobre <a href="https://blog.ladataweb.com.ar/post/185337134590/alternativa-para-conectar-power-bi-a-onedrive">como obtener el enlace</a>.
+
+>*Nota: dado que Power Bi no permite cifrar parámetros, usaremos un archivo excel cloud con ubicado donde usted lo desee con permisos y credenciales que puede setear al momento de actualizar para mantener la seguridad.*
 
 ## Credenciales de orígenes de datos
 
