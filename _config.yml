@@ -3,12 +3,12 @@ plugins:
   - jekyll-remote-theme
 color_scheme: pidark
 nav_sort: case_sensitive
-title: PiBi-Docs
-author: Pi Consulting
-email: info@piconsulting.com.ar
+title: SimplePBIX-Docs
+author: La Data Web
+email: ibarrau@ladataweb.com.ar
 # logo: "/assets/images/PiBi-rectangle.png"
 description: > # this means to ignore newlines until "baseurl:"
-  PIBI es una plataforma que permite a una empresa incrustar y distribuir informes en un portal para que clientes, proveedores o colaboradores comerciales puedan interactuar y consumir los mismos a demanda. ​
+  SimplePBIX son un conjunto de archivos de Power Bi Desktop que simplifican diversos casos de uso y pueden ser implementados con unos pocos pasos.
 
 # social links
 # twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
