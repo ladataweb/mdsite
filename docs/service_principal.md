@@ -19,13 +19,13 @@ Luego de registrar una aplicación en azure como indica nuestra documentación o
 Permisos:
 - **Portal Azure:** Dentro de la configuración de la App en el Azure Active Directory vamos a asignar un permiso delegado de Power Bi Service correspondiente a Dataset.ReadWrite.All. Éste es el único que necesitará para permitir a la aplicación publicar informes de SimplePBIX en un area de trabajo que nuestra App tenga accesos.
 - **Power Bi Service:** para que nuestra aplicación puede ser usada efectivamente contra Power Bi necesitamos asegurarnos que los Service Principals tiene acceso a utilizar la Rest API. Para ello nos dirigimos a configuración -> Portal de Administración -> Tenant Settings.
-![serviceprincipals](Media/Service%20principals/pbi_sp.PNG)
+![serviceprincipals](Media/Service%20principals/pbi_sp.png)
 Bajo la opción de desarrollo encontraremos lo que tenemos que cambiar. Podemos permitir a toda la organización o en caso que querramos tenerlo más controlado, podríamos agregar a nuestra App dentro de un grupo de seguridad al cual le habilitaríamos la opción
 - **Power Bi Service Workspace:** finalmente vamos a agregar nuestra App dentro del area de trabajo en la cual queremos tener implementado el informe. Hasta el momento el Service Principal no podía ejecutar muchas acciones pero al asignarle el workspace podría publicar sobre el mismo.
-![workspaceaccess](Media/Service%20principals/workspace.PNG)
+![workspaceaccess](Media/Service%20principals/workspace.png)
 Será necesario que el permiso sea uno con escritura como es el caso de Admin o Member de lo contrario no podríamos publicar tal como sucedería con un usuario.
 
 ## Service Principal Admin 
 
 De ser necesario, algunos informes de SimplePBIX van a necesitar acceso a la API con permisos de Administrador de Power Bi. Para ello necesitaremos la misma configuración de Power Bi Service antes mencionada y una más.
-La configuración adicional restante es la que permitiría a un Service Principal usar la Admin Rest API como solo lectura. Antes de cambiar nuestro Power Bi será obligatorio crear un Grupo de Seguridad con la App incluida para poder asignarle la opción del Portal de Administración de Power Bi Service directamente. Para más información puede ver el detalle de la acción en la siguiente dirección de la documentación de Microsoft: https://docs.microsoft.com/es-es/power-bi/enterprise/read-only-apis-service-principal-authentication
+La configuración adicional restante es la que permitiría a un Service Principal usar la Admin Rest API como solo lectura. Antes de cambiar nuestro Power Bi será obligatorio crear un Grupo de Seguridad con la App incluida para poder asignarle la opción del Portal de Administración de Power Bi Service directamente. Para más información puede ver el detalle de la acción en la siguiente dirección de la documentación de Microsoft: <a href="https://docs.microsoft.com/es-es/power-bi/enterprise/read-only-apis-service-principal-authentication">https://docs.microsoft.com/es-es/power-bi/enterprise/read-only-apis-service-principal-authentication</a>
