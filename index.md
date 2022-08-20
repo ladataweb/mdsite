@@ -1,28 +1,27 @@
-# Manual de producto
+---
+layout: default
+title: "Inicio"
+nav_order: 1
+---
+# Guía 
+Les damos la bienvenida al manual de PiBi.
 
-## Índice
+[<img src="assets/images/PiBi-rectangle.png" width="30%"/>](assets/images/PiBi-rectangle.png)
 
-[Ingresar a PiBi](ingresar_a_pibi.md)
-
-[Roles](roles.md)
-
-[Conectores](conectores.md)
-
-## ¿Qué es PiBi?
-- **Plataforma Web**: PIBI es una plataforma que permite a una empresa incrustar y distribuir informes en un portal para que clientes, proveedores o colaboradores comerciales puedan interactuar y consumir los mismos a demanda. ​
-- **Administración de usuario independiente de licencia​**: Independientemente de que sean parte de la empresa o incluso tengan o no una cuenta de Power BI.​
-- **Distribución de reportes ilimitada​**: Permite distribuir un número ilimitado de informes de Power BI con tantos usuarios como desee.​
+## ¿Qué es SimplePBIX?
+- **Sección de soluciones**: SimplePBIX es una sección de archivos pbix autodeployables enfocados en una solución como showcase.
+- **Implementación sin intervención externa​**: los archivos .pbix son pueden implementarse automaticamente en nuestro PowerBi Service.​
+- **Actualizaciones programadas​**: Permite mantener los informes actualizados con tan solo cambiar los parametros según indicaciones​.
 
 ## ¿Por qué?
-- **Reportes en un solo lugar**: Pensado para distribuir reportes con proveedores, clientes o colaboradores comerciales. Todo en una misma plataforma.​
-- ​**Seguro y privado​**: Los dashboards admiten dos instancias de seguridad. Una a nivel filas y otra por distribución, lo cual garantiza el acceso a la información de los usuarios seleccionados.​
-- **Backoffice**​: La plataforma permite gestionar quién ve y administra la distribución,​ es decir permite otorgar permisos a los usuarios para que vean determinada información.​
-- **Sencillo minimalista​**: Nos enfocamos en mantener PiBi lo más simple posible para que usuarios y administradores se concentren en lo que realmente importa, los informes y la administración segura.​
+- **Reutilización**: Buscamos facilitar soluciones que funcionen en cualquier implementación de data para evitar reconstruir la rueda.​
+- ​**Seguro y privado​**: Los dashboards admiten parámetros que lean sus credenciales almacenadas en otra parte para no quedar al descubierto.​
+- **Sencillo minimalista​**: Nos enfocamos en mantener los desarrollos de SimplePBIX con una UI liviana para no sobrecargar la experiencia de usuario.​
 
 ## Características Principales
-- Posibilidad de distribuir reportes a usuarios sin límites.​
-- Todo centralizado en una sola plataforma.​
-- Reducción de costos en cuestiones de licenciamiento.​
-- Distribución controlada, con dos capas de seguridad.​
-- Permití acceso a tus reportes a usuarios que no tengan cuenta de Power BI.​
-- Actualizaciones continuas e incluidas del producto.​
+- Reduce tiempo de desarrollo.
+- Reduce tiempo de implementación.
+- Implementación directa en producción.​
+- Cambio de origen de datos por parámetros
+- Seguridad de credenciales sensibles por archivos internos para garantizar su seguridad.
+- Nunca pediremos para implementar una cuenta administradora con privilegios totales.​
