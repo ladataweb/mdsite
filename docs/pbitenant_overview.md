@@ -22,7 +22,7 @@ El archivo del informe cuenta con parámetros de configuración.
 
 El archivo de credenciales es sumamente sencillo. Debemos abrir un excel y en su primera hoja crear una tabla que tenga tres columnas: 
 
-TenantId | ClientId | SecretId
+TenantId | ClientId | SecretKey
 
 En la primera fila completamos los valores necesarios según nuestro Service Principal con permisos de administrador. Lo dejamos en un entorno accesible web y copiamos su dirección. En caso de estar usando Sharepoint o Onedrive puede ver este post sobre <a href="https://blog.ladataweb.com.ar/post/185337134590/alternativa-para-conectar-power-bi-a-onedrive">como obtener el enlace</a>.
 
