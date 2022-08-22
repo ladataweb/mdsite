@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "App Registration"
-nav_order: 3
+title: "Registrar una App en Azure"
+nav_order: 2
 ---
 
 # ¿Cómo crear una App Registration en Azure y vincularla a Power BI? 
@@ -28,7 +28,7 @@ En los pasos siguientes vamos a ver como registrar una App en Azure Active Direc
 <br>![app8](Media/App%20registration/permisos%20admin.PNG)
 >*Nota: Estos permisos no serán requeridos para un Service Principal Administrador*
 13. Por último, para poder comunicarnos por completo con los servicios de *Power Bi*, debemos acceder al portal de [*Power Bi*](https://app.powerbi.com/), ingresar a *Configuración, Portal de Administración* y en la ventana que nos aparece habilitar el *“allow service principals to use Power BI APIs”*.  
-<br>![app14](Media/App%20registration/PBI%20embed%20content.png)
+<br>![app14](Media/App%20registration/PBI%20service%20principal.png)
 14. Tengamos en cuenta que para que poder utilizar un Service Principal Administrador, se tiene que habilitar el servicio de autenticación por API en el portal de Azure. En el siguiente enlace se describe como llevar a cabo esto, [Enable service principal authentication for read-only admin APIs](https://docs.microsoft.com/en-us/power-bi/admin/read-only-apis-service-principal-authentication).
 Se puede obtener más información ingresando a: 
 <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app?source=docs">Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft | Documentos de Microsoft</a>
