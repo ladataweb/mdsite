@@ -22,9 +22,9 @@ El archivo del informe cuenta con parámetros de configuración.
 
 El archivo de credenciales es sumamente sencillo. Debemos abrir un excel y en su primera hoja crear una tabla que tenga tres columnas: 
 
-TenantId | ClientId | SecretKey
+TenantId | ClientId | SecretKey | Username | Password | UseServicePrincipal
 
-En la primera fila completamos los valores necesarios según nuestro Service Principal con permisos de administrador. Lo dejamos en un entorno accesible web y copiamos su dirección. En caso de estar usando Sharepoint o Onedrive puede ver este post sobre <a href="https://blog.ladataweb.com.ar/post/185337134590/alternativa-para-conectar-power-bi-a-onedrive">como obtener el enlace</a>.
+En la primera fila completamos los valores necesarios según la conexión deseada. Podemos utilizar una cuenta de usuario administradora de PowerBi o nuestro Service Principal con permisos de administrador. La última columna _UseServicePrincipal_ será la que define el tipo de conexión a utilizar. El valor a poner sería TRUE o FALSE (en inglés). Lo dejamos en un entorno accesible web y copiamos su dirección. En caso de estar usando Sharepoint o Onedrive puede ver este post sobre <a href="https://blog.ladataweb.com.ar/post/185337134590/alternativa-para-conectar-power-bi-a-onedrive">como obtener el enlace</a>.
 
 >*Nota: dado que Power Bi no permite cifrar parámetros, usaremos un archivo excel cloud con ubicado donde usted lo desee con permisos y credenciales que puede setear al momento de actualizar para mantener la seguridad.*
 
