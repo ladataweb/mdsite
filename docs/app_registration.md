@@ -26,9 +26,8 @@ En los pasos siguientes vamos a ver como registrar una App en Azure Active Direc
 <br>![app7](Media/App%20registration/agregar%20permisos.PNG)
 12. Una vez seleccionada esa opción se nos va a desplegar una ventana donde debemos elegir el tipo de permiso que va a necesitar la aplicación creada. Para el caso de Service Principal de deployment seleccionamos *Permisos delegados*, luego seleccionamos los permisos *Read.WriteAll* sobre datasets, y por último aplicamos los cambios en *Agregar Permisos*.
 <br>![app8](Media/App%20registration/permisos%20admin.PNG)
->*Nota: Estos permisos no serán requeridos para un Service Principal Administrador*
-
-En caso de que nuestra intención sea loguear con *credenciales de usuario* (Admin de Power Bi), dentro de un informe de simplepbix, deberíamos setear los permisos de Tenant.ReadWrite.All y pedir a un administrador del tenant de azure o global admin que nos acepte el concenso de eso de este permiso.
+<blockquote>*Nota: Estos permisos no serán requeridos para un Service Principal Administrador*.</blockquote> 
+<br>En caso de que nuestra intención sea loguear con *credenciales de usuario* (Admin de Power Bi), dentro de un informe de simplepbix, deberíamos setear los permisos de Tenant.ReadWrite.All y pedir a un administrador del tenant de azure o global admin que nos acepte el concenso de eso de este permiso.
 <br>![app9](Media/App%20registration/adminconsent.png)
 13. Por último, para poder comunicarnos por completo con los servicios de *Power Bi*, debemos acceder al portal de [*Power Bi*](https://app.powerbi.com/), ingresar a *Configuración, Portal de Administración* y en la ventana que nos aparece habilitar el *“allow service principals to use Power BI APIs”*.  
 <br>![app14](Media/App%20registration/PBI%20service%20principal.png)
