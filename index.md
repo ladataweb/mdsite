@@ -6,7 +6,7 @@ nav_order: 1
 # Guía 
 Les damos la bienvenida a los docs de SimplePBIX.
 
-[<img src="assets/images/a.png" width="30%"/>](assets/images/Ladataweb-rectangle.png)
+[<img src="assets/images/simplepbix_file_logo.png" width="30%"/>](assets/images/Ladataweb-rectangle.png)
 
 ## ¿Qué es SimplePBIX?
 - **Sección de soluciones**: SimplePBIX es una sección de archivos pbix autodeployables enfocados en una solución como showcase.
